@@ -3,6 +3,7 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.base import BaseHook
+from airflow.utils.dates import days_ago
 from airflow.models import Variable
 
 def print_welcome():
