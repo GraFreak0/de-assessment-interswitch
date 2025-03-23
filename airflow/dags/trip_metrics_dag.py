@@ -73,6 +73,10 @@ def fetch_trip_metrics(**kwargs):
         print(f"⚠️ Error fetching data: {str(e)}")
         raise
 
+import io
+import pandas as pd
+import sqlite3
+
 def load_metrics_to_sqlite(**kwargs):
     """Load trip metrics data from XCom into SQLite with correct column names."""
     try:
@@ -83,15 +87,39 @@ def load_metrics_to_sqlite(**kwargs):
         if not data_json:
             raise ValueError("No data received from XCom.")
 
+        # Read JSON into DataFrame
         df = pd.read_json(io.StringIO(data_json), orient="records")
 
-        df.columns = COLUMN_NAMES
+        if df.empty:
+            raise ValueError("Received an empty DataFrame from XCom.")
 
-        # Connect to SQLite and insert data
+        # Ensure correct column mapping
+        column_mapping = dict(zip(df.columns, COLUMN_NAMES))
+        df = df.rename(columns=column_mapping)
+
+        # Connect to SQLite
         conn = sqlite3.connect(SQLITE_DB_PATH)
-        df.to_sql("trip_metrics", conn, if_exists="replace", index=False)
+        cursor = conn.cursor()
+
+        # Create table if it doesn't exist
+        create_table_query = f"""
+        CREATE TABLE IF NOT EXISTS trip_metrics (
+            {', '.join([f"{col} TEXT" for col in COLUMN_NAMES])}
+        );
+        """
+        cursor.execute(create_table_query)
+
+        # Truncate table (Delete all rows but keep structure)
+        cursor.execute("DELETE FROM trip_metrics;")
+        conn.commit()
+
+        # Load data into the table
+        df.to_sql("trip_metrics", conn, if_exists="append", index=False)
+
+        # Close the connection
         conn.close()
         print(f"Data successfully loaded into SQLite at {SQLITE_DB_PATH}.")
+    
     except Exception as e:
         print(f"Error loading data into SQLite: {str(e)}")
         raise

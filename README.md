@@ -15,15 +15,15 @@ This project implements an Apache Airflow data pipeline for fetching trip metric
 ```
 root/
 │── airflow/
-│   └── dags/ 
+│   │── dags/ 
 │   │   └── trip_metrics_dag.py  # Airflow DAG script
-│   └── db/
+│   │── db/
 │   │   └── clickHouseQuery.sql  # Clickhouse Query
-│   ├── trip_metrics_dag.py  # Airflow DAG script
 │   │── airflow.cfg               # Airflow configuration file
 │   │── airflow.db               # Airflow db file
 │   │── standalone_admin_password.txt    # Airflow admin password
 │   │── trip_metrics.db       # Trip metrics SQLite DB
+│   └── webserver_config.py   # Webserver Configuration File
 │── docker-compose.yaml       # YAML File for Docker Compose
 │── requirements.txt          # Python dependencies
 │── README.md                 # Project documentation
