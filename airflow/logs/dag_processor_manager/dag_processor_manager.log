@@ -5518,3 +5518,12 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 /opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T12:36:14                      12
 /opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T12:35:49                      12
 ================================================================================
+[2025-03-23T12:36:46.023+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.70s           2025-03-23T12:36:46                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T12:36:19                      12
+================================================================================
