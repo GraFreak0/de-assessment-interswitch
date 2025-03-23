@@ -12,10 +12,8 @@ def print_welcome():
 def print_date():
     print(f"Execution date is {datetime.now()}")
 
-def print_random_quote():
-    response = requests.get("https://api.quotable.io/random")
-    quote = response.json()["content"]
-    print('Quote of the day: "{}"'.fromat(quote))
+def print_goodbye():
+    print("Thank you for using the Airflow platform! Goodbye!")
 
 dag = DAG(
     dag_id="welcome_dag",
@@ -36,10 +34,10 @@ print_date_task = PythonOperator(
     dag=dag
 )
 
-print_random_quote_task = PythonOperator(
-    task_id="print_random_quote",
-    python_callable=print_random_quote,
+print_goodbye_task = PythonOperator(
+    task_id="print_goodbye",
+    python_callable=print_goodbye,
     dag=dag
 )
 
-print_welcome_task >> print_date_task >> print_random_quote_task
+print_welcome_task >> print_date_task >> print_goodbye_task

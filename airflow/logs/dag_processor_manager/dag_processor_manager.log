@@ -3612,3 +3612,631 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 /opt/airflow/dags/trip_metrics_dag.py                           1           0  1.61s           2025-03-23T07:56:02                      34
 /opt/airflow/dags/welcome_dag.py                                0           1  0.41s           2025-03-23T07:56:21                       5
 ================================================================================
+[2025-03-23T08:21:24.560+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-23T08:21:24.561+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-23T08:21:24.562+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-23T08:21:24.563+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:21:24.653+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:21:25.708+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/welcome_dag.py                                1           0  0.91s           2025-03-23T08:21:25                      45
+/opt/airflow/dags/trip_metrics_dag.py                           0           0                                                            0
+================================================================================
+[2025-03-23T08:21:56.145+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  3.01s           2025-03-23T08:21:29                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.20s           2025-03-23T08:21:56                      12
+================================================================================
+[2025-03-23T08:22:26.515+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.61s           2025-03-23T08:22:01                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.20s           2025-03-23T08:22:26                      12
+================================================================================
+[2025-03-23T08:22:57.066+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:22:32                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:22:57                      12
+================================================================================
+[2025-03-23T08:23:27.652+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.70s           2025-03-23T08:23:04                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:23:27                      12
+================================================================================
+[2025-03-23T08:23:59.196+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.41s           2025-03-23T08:23:36                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:23:59                      12
+================================================================================
+[2025-03-23T08:24:30.531+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:24:08                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:24:30                      12
+================================================================================
+[2025-03-23T08:25:00.896+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.01s           2025-03-23T08:24:39                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:25:00                      12
+================================================================================
+[2025-03-23T08:25:32.565+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:25:10                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:25:32                      12
+================================================================================
+[2025-03-23T08:26:03.947+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.92s           2025-03-23T08:25:42                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:26:03                      12
+================================================================================
+[2025-03-23T08:26:25.016+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:26:25.090+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:26:35.236+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:26:13                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:26:35                      12
+================================================================================
+[2025-03-23T08:27:06.653+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:26:44                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:27:06                      12
+================================================================================
+[2025-03-23T08:27:37.516+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:27:15                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:27:37                      12
+================================================================================
+[2025-03-23T08:28:08.745+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:27:46                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:28:08                      12
+================================================================================
+[2025-03-23T08:28:39.853+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:28:17                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:28:39                      12
+================================================================================
+[2025-03-23T08:29:11.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:28:49                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:29:11                      12
+================================================================================
+[2025-03-23T08:29:43.005+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:29:20                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:29:43                      12
+================================================================================
+[2025-03-23T08:30:13.875+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.01s           2025-03-23T08:29:51                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:30:13                      12
+================================================================================
+[2025-03-23T08:31:04.119+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-23T08:31:04.120+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-23T08:31:04.121+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-23T08:31:04.123+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:31:04.205+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:31:04.661+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:31:04                      12
+/opt/airflow/dags/trip_metrics_dag.py                           0           0                                                            0
+================================================================================
+[2025-03-23T08:31:35.904+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  2.31s           2025-03-23T08:31:08                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.31s           2025-03-23T08:31:35                      12
+================================================================================
+[2025-03-23T08:32:06.607+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:31:39                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:32:06                      12
+================================================================================
+[2025-03-23T08:32:37.238+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.80s           2025-03-23T08:32:10                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.31s           2025-03-23T08:32:37                      12
+================================================================================
+[2025-03-23T08:33:37.630+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-23T08:33:37.631+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-23T08:33:37.632+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-23T08:33:37.633+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:33:37.749+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:33:38.401+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:33:38                      12
+/opt/airflow/dags/trip_metrics_dag.py                           0           0                                                            0
+================================================================================
+[2025-03-23T08:34:08.925+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  2.61s           2025-03-23T08:33:42                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:34:08                      12
+================================================================================
+[2025-03-23T08:34:39.833+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.70s           2025-03-23T08:34:13                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.20s           2025-03-23T08:34:39                      12
+================================================================================
+[2025-03-23T08:35:10.590+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:34:44                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:35:10                      12
+================================================================================
+[2025-03-23T08:35:41.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:35:15                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:35:41                      12
+================================================================================
+[2025-03-23T08:36:11.577+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:35:47                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.21s           2025-03-23T08:36:11                      12
+================================================================================
+[2025-03-23T08:36:42.476+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:36:19                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:36:42                      12
+================================================================================
+[2025-03-23T08:37:13.136+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.01s           2025-03-23T08:36:51                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:37:13                      12
+================================================================================
+[2025-03-23T08:37:43.685+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:37:22                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:37:43                      12
+================================================================================
+[2025-03-23T08:38:14.173+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:37:54                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:38:14                      12
+================================================================================
+[2025-03-23T08:38:37.655+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:38:37.766+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:38:45.273+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.61s           2025-03-23T08:38:26                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.21s           2025-03-23T08:38:45                      12
+================================================================================
+[2025-03-23T08:39:15.885+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.70s           2025-03-23T08:38:57                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:39:15                      12
+================================================================================
+[2025-03-23T08:39:47.360+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:39:28                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:39:47                      12
+================================================================================
+[2025-03-23T08:40:18.908+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:40:00                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:40:18                      12
+================================================================================
+[2025-03-23T08:40:50.474+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:40:31                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:40:50                      12
+================================================================================
+[2025-03-23T08:41:34.973+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:41:02                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:41:34                      12
+================================================================================
+[2025-03-23T08:42:05.674+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:41:49                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:42:05                      12
+================================================================================
+[2025-03-23T08:42:36.703+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.92s           2025-03-23T08:42:20                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:42:36                      12
+================================================================================
+[2025-03-23T08:43:07.299+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.01s           2025-03-23T08:42:52                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:43:07                      12
+================================================================================
+[2025-03-23T08:43:37.936+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:43:24                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:43:37                      12
+================================================================================
+[2025-03-23T08:43:39.152+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:43:39.223+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:44:09.515+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.01s           2025-03-23T08:43:55                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:44:09                      12
+================================================================================
+[2025-03-23T08:44:40.518+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:44:26                      12
+/opt/airflow/dags/welcome_dag.py                                0           1  0.21s           2025-03-23T08:44:31                       3
+================================================================================
+[2025-03-23T08:45:10.962+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:44:58                      12
+/opt/airflow/dags/welcome_dag.py                                0           1  0.31s           2025-03-23T08:44:51                       5
+================================================================================
+[2025-03-23T08:45:47.394+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:45:29                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.71s           2025-03-23T08:45:22                      34
+================================================================================
+[2025-03-23T08:46:17.646+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:46:01                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:45:54                      12
+================================================================================
+[2025-03-23T08:46:47.759+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:46:32                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.21s           2025-03-23T08:46:24                      12
+================================================================================
+[2025-03-23T08:47:17.947+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:47:03                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.51s           2025-03-23T08:46:55                      12
+================================================================================
+[2025-03-23T08:47:48.741+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:47:35                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:47:26                      12
+================================================================================
+[2025-03-23T08:48:19.327+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:48:06                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:47:58                      12
+================================================================================
+[2025-03-23T08:48:39.421+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:48:39.535+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:48:49.910+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:48:37                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:48:29                      12
+================================================================================
+[2025-03-23T08:49:20.527+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:49:09                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:48:59                      12
+================================================================================
+[2025-03-23T08:49:51.363+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.13s           2025-03-23T08:49:40                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:49:30                      12
+================================================================================
+[2025-03-23T08:50:21.518+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  1.11s           2025-03-23T08:50:12                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.31s           2025-03-23T08:50:01                      12
+================================================================================
+[2025-03-23T08:50:52.717+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:50:43                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.20s           2025-03-23T08:50:31                      12
+================================================================================
+[2025-03-23T08:51:23.082+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.82s           2025-03-23T08:51:14                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:51:03                      12
+================================================================================
+[2025-03-23T08:51:53.097+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.70s           2025-03-23T08:51:45                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:51:35                      12
+================================================================================
+[2025-03-23T08:52:23.987+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:52:16                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.31s           2025-03-23T08:52:06                      12
+================================================================================
+[2025-03-23T08:52:55.053+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:52:47                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.20s           2025-03-23T08:52:37                      12
+================================================================================
+[2025-03-23T08:53:25.126+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:53:18                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:53:07                      12
+================================================================================
+[2025-03-23T08:53:39.884+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-23T08:53:39.961+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-23T08:53:55.225+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:53:49                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.40s           2025-03-23T08:53:38                      12
+================================================================================
+[2025-03-23T08:54:40.659+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:54:21                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:54:17                      12
+================================================================================
+[2025-03-23T08:55:10.954+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.91s           2025-03-23T08:54:52                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.41s           2025-03-23T08:54:49                      12
+================================================================================
+[2025-03-23T08:55:41.757+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.81s           2025-03-23T08:55:24                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:55:20                      12
+================================================================================
+[2025-03-23T08:56:12.180+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.71s           2025-03-23T08:55:55                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.30s           2025-03-23T08:55:50                      12
+================================================================================
+[2025-03-23T08:56:43.129+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trip_metrics_dag.py                           1           0  0.60s           2025-03-23T08:56:26                      12
+/opt/airflow/dags/welcome_dag.py                                1           0  0.31s           2025-03-23T08:56:21                      12
+================================================================================

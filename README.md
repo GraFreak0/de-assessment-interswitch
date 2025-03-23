@@ -37,6 +37,8 @@ Before running the Airflow pipeline, ensure the following dependencies are insta
 - **Python 3.9+**
 - **SQLite**
 - **ClickHouse (HTTP API Enabled)**
+- **Docker Desktop**
+- **VS Code** (install `Docker` extension for VS Code)
 - **Required Python Packages** (see `requirements.txt`)
 
 ## Airflow Configuration
