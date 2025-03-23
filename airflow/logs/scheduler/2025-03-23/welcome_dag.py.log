@@ -1,0 +1,100 @@
+[2025-03-23T07:53:53.777+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:53:53.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:53:53.783+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:53:53.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:53:53.811+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:53:53.808+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 22
+    schedule_interval="0 23 * * *"
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-03-23T07:53:53.813+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:53:53.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.100 seconds
+[2025-03-23T07:54:24.404+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:24.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:54:24.408+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:54:24.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:24.422+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:54:24.421+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 22
+    schedule_interval="0 23 * * *"
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-03-23T07:54:24.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:24.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.078 seconds
+[2025-03-23T07:54:55.750+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:55.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:54:55.759+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:54:55.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:55.820+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:54:55.818+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 22
+    schedule_interval="0 23 * * *"
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-03-23T07:54:55.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:54:55.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.164 seconds
+[2025-03-23T07:55:26.232+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:26.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:55:26.238+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:55:26.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:26.292+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:55:26.289+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 22
+    schedule_interval="0 23 * * *"
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-03-23T07:55:26.295+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:26.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.209 seconds
+[2025-03-23T07:55:57.110+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:57.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:55:57.118+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:55:57.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:57.193+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:55:57.191+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 22
+    schedule_interval="0 23 * * *"
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-03-23T07:55:57.196+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:55:57.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.216 seconds
+[2025-03-23T07:56:20.655+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:56:20.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-23T07:56:20.662+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:56:20.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:56:20.782+0000] {logging_mixin.py:190} INFO - [2025-03-23T07:56:20.761+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 21, in <module>
+    default_args = {'start_date': days_ago(1)},
+                                  ^^^^^^^^
+NameError: name 'days_ago' is not defined
+[2025-03-23T07:56:20.794+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-23T07:56:20.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.269 seconds

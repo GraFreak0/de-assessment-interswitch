@@ -105,7 +105,7 @@ default_args = {
 dag = DAG(
     "trip_metrics_pipeline",
     default_args=default_args,
-    schedule="@daily",
+    schedule='@monthly',
     catchup=False
 )
 
