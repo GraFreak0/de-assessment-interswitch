@@ -3092,3 +3092,31 @@
 [2025-03-23T12:36:45.805+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:36:45.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-23T12:36:45.834+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:36:45.834+0000] {dag.py:4180} INFO - Setting next_dagrun for trip_metrics_pipeline to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
 [2025-03-23T12:36:45.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trip_metrics_dag.py took 0.599 seconds
+[2025-03-23T12:37:16.319+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:16.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trip_metrics_dag.py for tasks to queue
+[2025-03-23T12:37:16.322+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:16.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:16.715+0000] {processor.py:925} INFO - DAG(s) 'trip_metrics_pipeline' retrieved from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:16.760+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:16.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-23T12:37:16.789+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:16.789+0000] {dag.py:4180} INFO - Setting next_dagrun for trip_metrics_pipeline to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-23T12:37:16.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trip_metrics_dag.py took 0.593 seconds
+[2025-03-23T12:37:47.458+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:47.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trip_metrics_dag.py for tasks to queue
+[2025-03-23T12:37:47.461+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:47.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:47.815+0000] {processor.py:925} INFO - DAG(s) 'trip_metrics_pipeline' retrieved from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:37:47.856+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:47.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-23T12:37:47.893+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:37:47.893+0000] {dag.py:4180} INFO - Setting next_dagrun for trip_metrics_pipeline to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-23T12:37:47.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trip_metrics_dag.py took 0.529 seconds
+[2025-03-23T12:38:18.608+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:18.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trip_metrics_dag.py for tasks to queue
+[2025-03-23T12:38:18.611+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:18.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:18.959+0000] {processor.py:925} INFO - DAG(s) 'trip_metrics_pipeline' retrieved from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:18.976+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:18.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-23T12:38:18.995+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:18.995+0000] {dag.py:4180} INFO - Setting next_dagrun for trip_metrics_pipeline to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-23T12:38:19.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trip_metrics_dag.py took 0.460 seconds
+[2025-03-23T12:38:49.317+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:49.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trip_metrics_dag.py for tasks to queue
+[2025-03-23T12:38:49.321+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:49.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:49.762+0000] {processor.py:925} INFO - DAG(s) 'trip_metrics_pipeline' retrieved from /opt/airflow/dags/trip_metrics_dag.py
+[2025-03-23T12:38:49.812+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:49.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-23T12:38:49.849+0000] {logging_mixin.py:190} INFO - [2025-03-23T12:38:49.848+0000] {dag.py:4180} INFO - Setting next_dagrun for trip_metrics_pipeline to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-23T12:38:50.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trip_metrics_dag.py took 0.729 seconds
